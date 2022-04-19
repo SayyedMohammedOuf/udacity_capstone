@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 
 def home():
-    html = "<h1>Welcome! This is Udacity Capstone Project For Cloud DevOps Engineer Nanodegree Program V1</h1>"
+    html = "<h1>Welcome! This is Udacity Capstone Project For Cloud DevOps Engineer Nanodegree Program V2 Green</h1>"
     return html.format(format)
 
 
